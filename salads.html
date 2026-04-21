@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Салаты — Qala Restaurant</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="salads.css" />
+  </head>
+  <body>
+    <header class="head">
+      <div class="hero">
+        <a class="back back--hero" href="index.html" aria-label="Back">
+          <span class="back__icon" aria-hidden="true">←</span>
+          <span class="back__text" data-i18n="back">Back</span>
+        </a>
+
+        <div class="hero__controls">
+          <label class="field" aria-label="Language">
+            <select id="langSelect" class="field__select field__select--compact field__select--hero">
+              <option value="uz">UZ</option>
+              <option value="ru">RU</option>
+              <option value="en">EN</option>
+            </select>
+          </label>
+
+          <button id="themeToggle" class="iconBtn iconBtn--hero" type="button" aria-label="Theme toggle">
+            <span class="iconBtn__icon" data-theme-icon></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="sheet">
+        <div class="container">
+          <div class="head__top">
+            <div class="head__titleWrap">
+              <h1 class="place">Qala Restaurant</h1>
+              <h1 class="title" data-i18n="title">САЛАТЫ</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <section id="list" class="list" aria-label="Salads list"></section>
+      </div>
+    </main>
+
+    <script src="salads.js"></script>
+  </body>
+</html>
