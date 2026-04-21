@@ -24,8 +24,8 @@ const I18N = {
   },
   ru: {
     appName: 'Меню ресторана',
-    restaurantName: 'Город Хива, Узбекистан', 
-    restaurantMeta: '',
+    restaurantName: 'Qala Restaurant', 
+    restaurantMeta: 'Город Хива, Узбекистан',
     statusOpen: 'Блюды',
     theme: 'Тема',
     contact: 'Контакты',

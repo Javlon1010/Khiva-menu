@@ -11,8 +11,7 @@
   --shadowHover: 0 18px 45px rgba(224, 224, 224, 0.9);
   --phoneBg: #f7f7f7;
 }
-
-
+ 
 [data-theme='dark'] {
   --bg: #0f0f10;
   --text: #ffffff;
@@ -56,20 +55,26 @@ body {
 }
 
 .hero {
-  height: 190px;
   width: 100%;
-  background-image: url('img/top-banner.png');
+  max-width: 420px;
+  margin: 0 auto;
+  height: 130px;
+  background-image: url("img/ChatGPT Image Apr 21, 2026, 02_36_31 PM.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
+  z-index: 1;
+  margin-bottom: 35px;
 }
 
 .hero::after {
   content: '';
   position: absolute;
   inset: 0;
-  background: transparent;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.45) 100%);
+  z-index: 0;
+  pointer-events: none;
 }
 
 .hero__controls {
@@ -83,11 +88,15 @@ body {
 }
 
 .sheet {
-  margin-top: -42px;
-  padding: 20px 0 16px;
-  border-radius: 28px 28px 0 0;
+  max-width: 420px;
+  margin: -52px auto 0;
+  padding: 22px 0 18px;
+  border-radius: 34px 34px 0 0;
   background: var(--sheet);
-  border-top: 1px solid var(--border);
+  box-shadow: 0 -14px 34px rgba(0, 0, 0, 0.38);
+  border-radius: 20px 20px 0 0;
+  position: relative;
+  z-index: 1;
 }
 
 .top__bar {
@@ -160,9 +169,9 @@ body {
 }
 
 .field__select--hero {
-  background: rgba(0, 0, 0, 0.35);
+  background: rgba(0, 0, 0, 0.62);
   color: #fff;
-  border-color: rgba(255, 255, 255, 0.18);
+  border-color: rgba(255, 255, 255, 0.28);
 }
 
 .field__select:focus {
@@ -183,9 +192,9 @@ body {
 }
 
 .iconBtn--hero {
-  background: rgba(0, 0, 0, 0.35);
+  background: rgba(0, 0, 0, 0.62);
   color: #fff;
-  border-color: rgba(255, 255, 255, 0.18);
+  border-color: rgba(255, 255, 255, 0.28);
 }
 
 .iconBtn__icon {
