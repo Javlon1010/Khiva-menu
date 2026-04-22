@@ -1,121 +1,148 @@
 const SALADS = [
   {
-    id: 'crispy_eggplant',
-    name: {
-      uz: 'Qarsildoq baqlajon',
-      ru: 'Хрустящие баклажан',
-      en: 'Crispy Eggplant',
-    },
-    price: 50000,
+  id: 'french_fries',
+  name: {
+    uz: 'Kartoshka fri',
+    ru: 'Картофель фри',
+    en: 'French Fries',
   },
-  {
-    id: 'greek',
-    name: {
-      uz: 'Grekcha salat',
-      ru: 'Греческий салат',
-      en: 'Greek Salad',
-    },
-    price: 45000,
+  price: 17000,
+},
+{
+  id: 'idaho_potatoes',
+  name: {
+    uz: 'Idaho kartoshkasi',
+    ru: 'Картофель Айдахо',
+    en: 'Idaho Potatoes',
   },
-  {
-    id: 'osiya',
-    name: {
-      uz: 'Osiya salati',
-      ru: 'Салат Осия',
-      en: 'Osiya Salad',
-    },
-    price: 55000,
+  price: 18000,
+},
+{
+  id: 'grilled_vegetables',
+  name: {
+    uz: 'Grilda pishirilgan sabzavotlar',
+    ru: 'Овощи на гриле',
+    en: 'Grilled Vegetables',
   },
-  {
-    id: 'caesar_chicken',
-    name: {
-      uz: 'Tovuqli Sezar',
-      ru: 'Цезарь с курицей',
-      en: 'Caesar with Chicken',
-    },
-    price: 45000,
+  price: 28000,
+},
+{
+  id: 'mashed_potatoes',
+  name: {
+    uz: 'Kartoshka pyuresi',
+    ru: 'Картофельное пюре',
+    en: 'Mashed Potatoes',
   },
-  {
-    id: 'achichuk',
-    name: {
-      uz: 'Achchiq-chuchuk',
-      ru: 'Аччик чучик',
-      en: 'Achichuk',
-    },
-    price: 25000,
+  price: 10000,
+},
+{
+  id: 'grilled_corn',
+  name: {
+    uz: 'Grilda makkajo‘xori',
+    ru: 'Кукуруза на гриле',
+    en: 'Grilled Corn',
   },
-  {
-    id: 'chirokchi',
-    name: {
-      uz: 'Chiroqchi',
-      ru: 'Чирокчи',
-      en: 'Chirokchi',
-    },
-    price: 35000,
+  price: 15000,
+},
+{
+  id: 'rice',
+  name: {
+    uz: 'Guruch',
+    ru: 'Рис',
+    en: 'Rice',
   },
-  {
-    id: 'pickles_assorted',
-    name: {
-      uz: 'Tuzlangan assorti',
-      ru: 'Солёные ассорти',
-      en: 'Assorted Pickles',
-    },
-    price: 35000,
+  price: 10000,
+},
+{
+  id: 'heinz_ketchup',
+  name: {
+    uz: 'Heinz ketchup',
+    ru: 'Кетчуп Heinz',
+    en: 'Heinz Ketchup',
   },
-  {
-    id: 'roastbeef',
-    name: {
-      uz: 'Rostbifli salat',
-      ru: 'Салат с ростбифом',
-      en: 'Roast Beef Salad',
-    },
-    price: 60000,
+  price: 5000,
+},
+{
+  id: 'garlic_sauce',
+  name: {
+    uz: 'Sarimsoqli sous',
+    ru: 'Чесночный соус',
+    en: 'Garlic Sauce',
   },
-  {
-    id: 'tongue',
-    name: {
-      uz: 'Tillli salat',
-      ru: 'Салат с языком',
-      en: 'Tongue Salad',
-    },
-    price: 55000,
+  price: 8000,
+},
+{
+  id: 'signature_sauce',
+  name: {
+    uz: 'Maxsus sous',
+    ru: 'Фирменный соус',
+    en: 'Signature Sauce',
   },
-  {
-    id: 'spicy_three_meats',
-    name: {
-      uz: 'Achchiq “Uch go‘sht” salati',
-      ru: 'Острый салат три мяса',
-      en: 'Spicy Three Meats Salad',
-    },
-    price: 55000,
+  price: 10000,
+},
+{
+  id: 'tomato_sauce',
+  name: {
+    uz: 'Pomidor sousi',
+    ru: 'Томатный соус',
+    en: 'Tomato Sauce',
   },
-  {
-    id: 'eggplant_roll',
-    name: {
-      uz: 'Baqlajon ruleti',
-      ru: 'Рулет баклажан',
-      en: 'Eggplant Roll',
-    },
-    price: 50000,
+  price: 8000,
+},
+{
+  id: 'barbecue_sauce',
+  name: {
+    uz: 'Barbekyu sous',
+    ru: 'Соус барбекю',
+    en: 'Barbecue Sauce',
   },
-  {
-    id: 'suzma',
-    name: {
-      uz: 'Suzma',
-      ru: 'Сузма',
-      en: 'Suzma',
-    },
-    price: 15000,
+  price: 10000,
+},
+{
+  id: 'sour_cream',
+  name: {
+    uz: 'Smetana',
+    ru: 'Сметана',
+    en: 'Sour Cream',
   },
-  {
-    id: 'chef',
-    name: {
-      uz: 'Shef salati',
-      ru: 'Салат от шефа',
-      en: "Chef's Salad",
-    },
-    price: 60000,
+  price: 5000,
+},
+{
+  id: 'clotted_cream',
+  name: {
+    uz: 'Qaymoq',
+    ru: 'Сливки',
+    en: 'Clotted Cream',
   },
+  price: 8000,
+},
+{
+  id: 'hot_pepper',
+  name: {
+    uz: 'Achchiq qalampir',
+    ru: 'Острый перец',
+    en: 'Hot Pepper',
+  },
+  price: 5000,
+},
+{
+  id: 'onion',
+  name: {
+    uz: 'Piyoz',
+    ru: 'Лук',
+    en: 'Onion',
+  },
+  price: 5000,
+},
+{
+  id: 'lemon',
+  name: {
+    uz: 'Limon',
+    ru: 'Лимон',
+    en: 'Lemon',
+  },
+  price: 10000,
+},
 ];
 
 const STORAGE_KEYS = {
@@ -127,22 +154,22 @@ const LANGS = ['uz', 'ru', 'en'];
 
 const I18N = {
   uz: {
-    title_sayt: 'Salatlar — Qala Restaurant',
-    title: 'SALATLAR',
+    title_sayt: 'Garnir / Souslar — Qala Restaurant',
+    title: 'GARNIR / SOUSLAR',
     back: 'Orqaga',
     restaurantMeta: "O'zbekiston, Xiva shahri",
     statusOpen: 'Taomlar',
   },
   ru: {
-    title_sayt: 'Салаты — Qala Restaurant',
-    title: 'САЛАТЫ',
+    title_sayt: 'ГАРНИР / Соусы — Qala Restaurant',
+    title: 'ГАРНИР / СОУСЫ',
     back: 'Назад',
     restaurantMeta: 'Город Хива, Узбекистан',
     statusOpen: 'Блюды',
   },
   en: {
-    title_sayt: 'Salads — Qala Restaurant',
-    title: 'SALADS',
+    title_sayt: 'Garnish / Sauces — Qala Restaurant',
+    title: 'GARNISH / SAUCES',
     back: 'Back',
     restaurantMeta: 'Khiva City, Uzbekistan',
     statusOpen: 'Dishes',

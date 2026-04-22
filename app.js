@@ -10,6 +10,7 @@ const LANGS = ['uz', 'ru', 'en'];
 // UI matnlar tarjimasi
 const I18N = {
   uz: {
+    title_sayt: 'Qala restoran Menyu',
     appName: 'Restoran Menyu',
     restaurantName: 'Qala Restaurant',
     restaurantMeta: "O'zbekiston, Xiva shahri",
@@ -23,6 +24,7 @@ const I18N = {
     empty: "Hech narsa topilmadi. Qidiruv so'zini o'zgartirib ko'ring.",
   },
   ru: {
+    title_sayt: 'Меню ресторана Qala',
     appName: 'Меню ресторана',
     restaurantName: 'Qala Restaurant', 
     restaurantMeta: 'Город Хива, Узбекистан',
@@ -36,6 +38,7 @@ const I18N = {
     empty: 'Ничего не найдено. Попробуйте изменить запрос.',
   },
   en: {
+    title_sayt: 'Qala Restaurant Menu',
     appName: 'Restaurant Menu',
     restaurantName: 'Qala Restaurant',
     restaurantMeta: 'Khiva City, Uzbekistan',
@@ -60,13 +63,13 @@ const CATEGORIES = [
   {
     id: 'cold',
     img:
-      'https://images.unsplash.com/photo-1541519227354-08fa5d50c44d?auto=format&fit=crop&w=1200&q=70',
+      'https://dyj6gt4964deb.cloudfront.net/images/dca7f44d-f84c-4116-ab49-10bdf5726724.jpeg',
     label: { uz: 'Sovuq gazaklar', ru: 'ХОЛОДНЫЕ ЗАКУСКИ', en: 'COLD APPETIZERS' },
   },
   {
     id: 'garnish',
     img:
-      'https://images.unsplash.com/photo-1543339318-b43dc53e19b3?auto=format&fit=crop&w=1200&q=70',
+      'https://sdmntprwestus2.oaiusercontent.com/files/00000000-9588-71f8-aad9-17267a95057c/raw?se=2026-04-22T10:08:24Z&sp=r&sv=2026-02-06&sr=b&scid=62f4d260-d7e1-4890-8de6-c6a9b47dd5c6&skoid=1a0ef048-201c-43e0-8950-52d58956a71a&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-04-21T20:52:12Z&ske=2026-04-22T20:52:12Z&sks=b&skv=2026-02-06&sig=bSVlm0tCv8AFjCVKilO0AwklQ88WJKHPzWXaqYCS4V8%3D',
     label: { uz: 'Garnir / sous', ru: 'ГАРНИР СОУСА', en: 'SIDES & SAUCES' },
   },
   {

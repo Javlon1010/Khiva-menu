@@ -1,121 +1,49 @@
 const SALADS = [
-  {
-    id: 'crispy_eggplant',
-    name: {
-      uz: 'Qarsildoq baqlajon',
-      ru: 'Хрустящие баклажан',
-      en: 'Crispy Eggplant',
-    },
-    price: 50000,
+    {
+  id: 'mastava',
+  name: {
+    uz: 'Mastava',
+    ru: 'Мастава',
+    en: 'Mastava Soup',
   },
-  {
-    id: 'greek',
-    name: {
-      uz: 'Grekcha salat',
-      ru: 'Греческий салат',
-      en: 'Greek Salad',
-    },
-    price: 45000,
+  price: 35000,
+},
+{
+  id: 'lentil_soup',
+  name: {
+    uz: 'Yasmiq sho‘rva',
+    ru: 'Чечевичный суп',
+    en: 'Lentil Soup',
   },
-  {
-    id: 'osiya',
-    name: {
-      uz: 'Osiya salati',
-      ru: 'Салат Осия',
-      en: 'Osiya Salad',
-    },
-    price: 55000,
+  price: 35000,
+},
+{
+  id: 'pumpkin_cream_soup',
+  name: {
+    uz: 'Qovoqli krem sho‘rva',
+    ru: 'Тыквенный крем суп',
+    en: 'Pumpkin Cream Soup',
   },
-  {
-    id: 'caesar_chicken',
-    name: {
-      uz: 'Tovuqli Sezar',
-      ru: 'Цезарь с курицей',
-      en: 'Caesar with Chicken',
-    },
-    price: 45000,
+  price: 35000,
+},
+{
+  id: 'borsch',
+  name: {
+    uz: 'Borsh',
+    ru: 'Борщ',
+    en: 'Borsch',
   },
-  {
-    id: 'achichuk',
-    name: {
-      uz: 'Achchiq-chuchuk',
-      ru: 'Аччик чучик',
-      en: 'Achichuk',
-    },
-    price: 25000,
+  price: 38000,
+},
+{
+  id: 'bedana_shorva',
+  name: {
+    uz: 'Bedana sho‘rva',
+    ru: 'Бедана шорва',
+    en: 'Quail Soup',
   },
-  {
-    id: 'chirokchi',
-    name: {
-      uz: 'Chiroqchi',
-      ru: 'Чирокчи',
-      en: 'Chirokchi',
-    },
-    price: 35000,
-  },
-  {
-    id: 'pickles_assorted',
-    name: {
-      uz: 'Tuzlangan assorti',
-      ru: 'Солёные ассорти',
-      en: 'Assorted Pickles',
-    },
-    price: 35000,
-  },
-  {
-    id: 'roastbeef',
-    name: {
-      uz: 'Rostbifli salat',
-      ru: 'Салат с ростбифом',
-      en: 'Roast Beef Salad',
-    },
-    price: 60000,
-  },
-  {
-    id: 'tongue',
-    name: {
-      uz: 'Tillli salat',
-      ru: 'Салат с языком',
-      en: 'Tongue Salad',
-    },
-    price: 55000,
-  },
-  {
-    id: 'spicy_three_meats',
-    name: {
-      uz: 'Achchiq “Uch go‘sht” salati',
-      ru: 'Острый салат три мяса',
-      en: 'Spicy Three Meats Salad',
-    },
-    price: 55000,
-  },
-  {
-    id: 'eggplant_roll',
-    name: {
-      uz: 'Baqlajon ruleti',
-      ru: 'Рулет баклажан',
-      en: 'Eggplant Roll',
-    },
-    price: 50000,
-  },
-  {
-    id: 'suzma',
-    name: {
-      uz: 'Suzma',
-      ru: 'Сузма',
-      en: 'Suzma',
-    },
-    price: 15000,
-  },
-  {
-    id: 'chef',
-    name: {
-      uz: 'Shef salati',
-      ru: 'Салат от шефа',
-      en: "Chef's Salad",
-    },
-    price: 60000,
-  },
+  price: 40000,
+},
 ];
 
 const STORAGE_KEYS = {
@@ -127,22 +55,22 @@ const LANGS = ['uz', 'ru', 'en'];
 
 const I18N = {
   uz: {
-    title_sayt: 'Salatlar — Qala Restaurant',
-    title: 'SALATLAR',
+    title_sayt: 'Sho\'rvalar — Qala Restaurant',
+    title: 'SHO\'RVA',
     back: 'Orqaga',
     restaurantMeta: "O'zbekiston, Xiva shahri",
     statusOpen: 'Taomlar',
   },
   ru: {
-    title_sayt: 'Салаты — Qala Restaurant',
-    title: 'САЛАТЫ',
+    title_sayt: 'Супы — Qala Restaurant',
+    title: 'Супы',
     back: 'Назад',
     restaurantMeta: 'Город Хива, Узбекистан',
     statusOpen: 'Блюды',
   },
   en: {
-    title_sayt: 'Salads — Qala Restaurant',
-    title: 'SALADS',
+    title_sayt: 'Soups — Qala Restaurant',
+    title: 'SOUPS',
     back: 'Back',
     restaurantMeta: 'Khiva City, Uzbekistan',
     statusOpen: 'Dishes',
