@@ -1,4 +1,4 @@
-const SALADS = [
+const MAIN_DISHES = [
     {
   id: 'shur_kebab_05',
   name: {
@@ -257,7 +257,7 @@ function render() {
   const root = document.getElementById('list');
   root.innerHTML = '';
 
-  SALADS.forEach((s) => {
+  MAIN_DISHES.forEach((s) => {
     const displayName = getSaladName(s);
     const el = document.createElement('article');
     el.className = 'item';

@@ -1,4 +1,4 @@
-const SALADS = [
+const COLD_APPETIZERS = [
 {
   id: 'khiva_ijjon',
   name: {
@@ -185,7 +185,7 @@ function render() {
   const root = document.getElementById('list');
   root.innerHTML = '';
 
-  SALADS.forEach((s) => {
+  COLD_APPETIZERS.forEach((s) => {
     const displayName = getSaladName(s);
     const el = document.createElement('article');
     el.className = 'item';

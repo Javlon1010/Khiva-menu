@@ -1,4 +1,4 @@
-const SALADS = [
+const GARNISH = [
   {
   id: 'french_fries',
   name: {
@@ -284,7 +284,7 @@ function render() {
   const root = document.getElementById('list');
   root.innerHTML = '';
 
-  SALADS.forEach((s) => {
+  GARNISH.forEach((s) => {
     const displayName = getSaladName(s);
     const el = document.createElement('article');
     el.className = 'item';

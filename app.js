@@ -245,8 +245,17 @@ function renderCategoryCard(cat) {
   title.textContent = cat.label[state.lang] || '';
 
   const open = () => {
-    if (cat.id === 'salads') {
-      window.location.href = 'salads.html';
+    const urlMap = {
+      'salads': 'salads.html',
+      'cold': 'sovuq_gazaklar.html',
+      'garnish': 'garnir.html',
+      'soups': 'shorva.html',
+      'main': 'asosiy_taomlar.html',
+    };
+    
+    const url = urlMap[cat.id];
+    if (url) {
+      window.location.href = url;
       return;
     }
 
