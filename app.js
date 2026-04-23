@@ -94,7 +94,7 @@ const CATEGORIES = [
     id: 'pizza',
     img:
       'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1200&q=70',
-    label: { uz: 'Pitsa', ru: 'ПИЦЦА ПИДЕ', en: 'PIZZA & PIDE' },
+    label: { uz: 'PITSA & PIDE', ru: 'ПИЦЦА & ПИДЕ', en: 'PIZZA & PIDE' },
   },
   {
     id: 'pasta',
@@ -251,6 +251,14 @@ function renderCategoryCard(cat) {
       'garnish': 'garnir.html',
       'soups': 'shorva.html',
       'main': 'asosiy_taomlar.html',
+      'burgers': 'burger.html',
+      'pizza': 'pitsa.html',
+      'pasta': 'pasta.html',
+      'fish': 'balik.html',
+      'dough': 'hamirli_taomlar.html',
+      'mangal': 'mangal.html',
+      'assorti': 'assarti_taomlar.html',
+      'bread': 'non.html',
     };
     
     const url = urlMap[cat.id];

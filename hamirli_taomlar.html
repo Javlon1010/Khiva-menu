@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ru" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="title_sayt">Гарниры — Qala Restaurant</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="hamirli_taomlar.css" />
+  </head>
+  <body>
+    <header class="head">
+      <div class="hero">
+        <a class="back back--hero" href="index.html" aria-label="Back">
+          <span class="back__icon" aria-hidden="true">⬅</span>
+      
+        </a>
+
+        <div class="hero__controls">
+          <label class="field" aria-label="Language">
+            <select id="langSelect" class="field__select field__select--compact field__select--hero">
+              <option value="uz">UZ</option>
+              <option value="ru">RU</option>
+              <option value="en">EN</option>
+            </select>
+          </label>
+
+          <button id="themeToggle" class="iconBtn iconBtn--hero" type="button" aria-label="Theme toggle">
+            <span class="iconBtn__icon" data-theme-icon></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="sheet">
+        <div class="container">
+          <div class="head__top">
+            <div class="head__titleWrap">
+              <div class="top__name" data-i18n="restaurantName">Qala Restaurant</div>
+                <div class="top__meta" data-i18n="restaurantMeta">O'zbekiston, Xiva shahar</div>
+                     <span class="status" data-i18n="statusOpen">Блюды</span>
+              <h1 class="title" data-i18n="title">САЛАТЫ</h1>
+            </div>
+          </div>
+        </div>
+
+ <main class="main">
+      <div class="container">
+        <section id="list" class="list" aria-label="Salads list"></section>
+      </div>
+    </main>
+
+    </div>
+    </header>
+
+   
+  
+    <script src="hamirli_taomlar.js"></script>
+  </body>
+</html>
