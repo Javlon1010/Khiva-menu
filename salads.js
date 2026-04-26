@@ -7,6 +7,7 @@ const SALADS = [
       en: 'Crispy Eggplant',
     },
     price: 50000,
+    img: 'img/1.jpeg'
   },
   {
     id: 'greek',
@@ -14,8 +15,10 @@ const SALADS = [
       uz: 'Grekcha salat',
       ru: 'Греческий салат',
       en: 'Greek Salad',
+
     },
     price: 45000,
+    img: 'img/2.jpeg'
   },
   {
     id: 'osiya',
@@ -25,6 +28,7 @@ const SALADS = [
       en: 'Osiya Salad',
     },
     price: 55000,
+    img: 'img/3.jpeg'
   },
   {
     id: 'caesar_chicken',
@@ -34,6 +38,7 @@ const SALADS = [
       en: 'Caesar with Chicken',
     },
     price: 45000,
+    img: 'img/4.jpeg'
   },
   {
     id: 'achichuk',
@@ -43,6 +48,7 @@ const SALADS = [
       en: 'Achichuk',
     },
     price: 25000,
+    img: 'img/5.jpeg'
   },
   {
     id: 'chirokchi',
@@ -52,6 +58,7 @@ const SALADS = [
       en: 'Chirokchi',
     },
     price: 35000,
+    img: 'img/a.jpeg'
   },
   {
     id: 'pickles_assorted',
@@ -61,6 +68,7 @@ const SALADS = [
       en: 'Assorted Pickles',
     },
     price: 35000,
+    img: 'img/6.jpeg'
   },
   {
     id: 'roastbeef',
@@ -70,6 +78,7 @@ const SALADS = [
       en: 'Roast Beef Salad',
     },
     price: 60000,
+    img: 'img/7.jpeg'
   },
   {
     id: 'tongue',
@@ -79,6 +88,7 @@ const SALADS = [
       en: 'Tongue Salad',
     },
     price: 55000,
+    img: 'img/8.jpeg'
   },
   {
     id: 'spicy_three_meats',
@@ -88,6 +98,7 @@ const SALADS = [
       en: 'Spicy Three Meats Salad',
     },
     price: 55000,
+    img: 'img/9.jpeg'
   },
   {
     id: 'eggplant_roll',
@@ -97,6 +108,7 @@ const SALADS = [
       en: 'Eggplant Roll',
     },
     price: 50000,
+    img: 'img/10.jpeg'
   },
   {
     id: 'suzma',
@@ -106,6 +118,7 @@ const SALADS = [
       en: 'Suzma',
     },
     price: 15000,
+    img: 'img/11.jpeg'
   },
   {
     id: 'chef',
@@ -115,6 +128,7 @@ const SALADS = [
       en: "Chef's Salad",
     },
     price: 60000,
+    img: 'img/12.jpeg'
   },
 ];
 

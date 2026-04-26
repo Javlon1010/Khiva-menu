@@ -7,6 +7,7 @@ const MAIN_DISHES = [
     en: 'Shashlik Assorti 6 pcs',
   },
   price: 480000,
+  img : 'img/51.jpg'
 },
 {
   id: 'kebab_assorti_4p',
@@ -16,6 +17,7 @@ const MAIN_DISHES = [
     en: 'Kebab Assorti 4 pcs',
   },
   price: 420000,
+  img : 'img/52.jpg'
 },
 {
   id: 'mangal_assorti_4p',
@@ -25,6 +27,7 @@ const MAIN_DISHES = [
     en: 'Mangal Assorti 4 pcs',
   },
   price: 440000,
+  img : 'img/53.jpg'
 },
 {
   id: 'qala_assorti',
@@ -34,6 +37,7 @@ const MAIN_DISHES = [
     en: 'Kala Assorti',
   },
   price: 650000,
+  img : 'img/54.jpg'
 },
 {
   id: 'asado_1kg',
@@ -43,6 +47,7 @@ const MAIN_DISHES = [
     en: 'Asado 1 kg',
   },
   price: 300000,
+  img : 'img/55.jpg'
 },
 ];
 

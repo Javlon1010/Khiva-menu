@@ -99,7 +99,7 @@ const CATEGORIES = [
   {
     id: 'pasta',
     img:
-      'https://images.unsplash.com/photo-1523986371872-9d3ba2e2f642?auto=format&fit=crop&w=1200&q=70',
+      'https://dyj6gt4964deb.cloudfront.net/images/crop-688113a9-839a-4188-9c67-920998d6d907.jpeg',
     label: { uz: 'Pasta', ru: 'ПАСТА', en: 'PASTA' },
   },
   {
@@ -111,7 +111,7 @@ const CATEGORIES = [
   {
     id: 'dough',
     img:
-      'https://images.unsplash.com/photo-1604908554027-8f5a0f8e58b4?auto=format&fit=crop&w=1200&q=70',
+      'https://dyj6gt4964deb.cloudfront.net/images/crop-35b3aebf-d8ea-4551-8329-8bfd8c6e3572.jpeg',
     label: { uz: 'Xamirli taomlar', ru: 'БЛЮДА ИЗ ТЕСТА', en: 'DOUGH DISHES' },
   },
   {
@@ -123,7 +123,7 @@ const CATEGORIES = [
   {
     id: 'assorti',
     img:
-      'https://images.unsplash.com/photo-1544025162-72d6a79d6f2b?auto=format&fit=crop&w=1200&q=70',
+      'https://dyj6gt4964deb.cloudfront.net/images/crop-cd2079a1-6717-41c1-93ab-f167bd01757f.jpeg',
     label: { uz: 'Assorti taomlar', ru: 'АССОРТИ БЛЮДА', en: 'ASSORTED DISHES' },
   },
   {

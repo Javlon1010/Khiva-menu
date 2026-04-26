@@ -7,6 +7,7 @@ const GARNISH = [
     en: 'Classic Burger',
   },
   price: 50000,
+  img: 'img/36.jpeg'
 },
 {
   id: 'chicken_burger',
@@ -16,6 +17,7 @@ const GARNISH = [
     en: 'Chicken Burger',
   },
   price: 43000,
+  img: 'img/37.jpeg'
 },
 {
   id: 'steak_burger',
@@ -25,6 +27,7 @@ const GARNISH = [
     en: 'Steak Burger',
   },
   price: 65000,
+  img: 'img/38.jpeg'
 },
 ];
 

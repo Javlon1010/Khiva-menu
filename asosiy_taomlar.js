@@ -1,5 +1,5 @@
 const MAIN_DISHES = [
-    {
+ {
   id: 'shur_kebab_05',
   name: {
     uz: 'Sho‘r kebab 0.5',
@@ -7,6 +7,7 @@ const MAIN_DISHES = [
     en: 'Shur Kebab 0.5',
   },
   price: 130000,
+  img: 'img/23.jpeg'
 },
 {
   id: 'kaymoka_kebab_05',
@@ -16,6 +17,7 @@ const MAIN_DISHES = [
     en: 'Creamy Kebab 0.5',
   },
   price: 140000,
+  img: 'img/24.jpeg'
 },
 {
   id: 'sariyog_dil_05',
@@ -25,6 +27,7 @@ const MAIN_DISHES = [
     en: 'Butter Tongue 0.5',
   },
   price: 120000,
+  img: 'img/25.jpeg'
 },
 {
   id: 'tongue_mushroom',
@@ -34,6 +37,7 @@ const MAIN_DISHES = [
     en: 'Tongue with Mushrooms',
   },
   price: 80000,
+  img: 'img/26.jpeg'
 },
 {
   id: 'sariyog_joja',
@@ -43,6 +47,7 @@ const MAIN_DISHES = [
     en: 'Butter Chicken',
   },
   price: 45000,
+  img: 'img/27.jpeg'
 },
 {
   id: 'izgara_kotlet',
@@ -52,6 +57,7 @@ const MAIN_DISHES = [
     en: 'Grilled Cutlet',
   },
   price: 80000,
+  img: 'img/28.jpeg'
 },
 {
   id: 'kasarli_kofte',
@@ -61,6 +67,7 @@ const MAIN_DISHES = [
     en: 'Cheese Kofte',
   },
   price: 80000,
+  img: 'img/29.jpeg'
 },
 {
   id: 'medallions',
@@ -70,6 +77,7 @@ const MAIN_DISHES = [
     en: 'Medallions',
   },
   price: 110000,
+  img: 'img/30.jpeg'
 },
 {
   id: 'bonfile_1kg',
@@ -79,6 +87,7 @@ const MAIN_DISHES = [
     en: 'Bonfile 1 kg',
   },
   price: 365000,
+  img: 'img/31.jpeg',
 },
 {
   id: 'flank_steak',
@@ -88,6 +97,7 @@ const MAIN_DISHES = [
     en: 'Flank Steak',
   },
   price: 140000,
+  img: 'img/32.jpeg'
 },
 {
   id: 'signature_roll',
@@ -97,6 +107,7 @@ const MAIN_DISHES = [
     en: 'Signature Roll',
   },
   price: 95000,
+  img: 'img/33.jpeg'
 },
 {
   id: 'ribeye_steak',
@@ -106,6 +117,7 @@ const MAIN_DISHES = [
     en: 'Ribeye Steak',
   },
   price: 130000,
+  img: 'img/34.jpeg'
 },
 {
   id: 'lamb_vaguri_1kg',
@@ -115,6 +127,7 @@ const MAIN_DISHES = [
     en: 'Lamb Vaguri 1 kg',
   },
   price: 300000,
+  img: 'img/35.jpeg'
 },
 ];
 

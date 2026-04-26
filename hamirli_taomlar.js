@@ -7,6 +7,7 @@ const MAIN_DISHES = [
     en: 'Barak Assorti',
   },
   price: 110000,
+  img: 'img/43.jpeg'
 },
 {
   id: 'shivit_oshi',
@@ -16,6 +17,7 @@ const MAIN_DISHES = [
     en: 'Shivit Osh',
   },
   price: 40000,
+  img: 'img/44.jpeg'
 },
 {
   id: 'kutir_barak',
@@ -25,6 +27,7 @@ const MAIN_DISHES = [
     en: 'Kutir Barak',
   },
   price: 35000,
+  img: 'img/45.jpeg'
 },
 {
   id: 'tuxum_barak',
@@ -34,6 +37,7 @@ const MAIN_DISHES = [
     en: 'Egg Barak',
   },
   price: 35000,
+  img: 'img/46.jpeg'
 },
 {
   id: 'ushok_barak',
@@ -52,6 +56,7 @@ const MAIN_DISHES = [
     en: 'Pumpkin Barak',
   },
   price: 30000,
+  img: '47.jpeg'
 },
 {
   id: 'kuk_barak',
@@ -61,6 +66,7 @@ const MAIN_DISHES = [
     en: 'Green Barak',
   },
   price: 30000,
+  img: '48.jpeg'
 },
 {
   id: 'kapshirma',
@@ -70,6 +76,7 @@ const MAIN_DISHES = [
     en: 'Kapshirma',
   },
   price: 20000,
+  img: '49.jpeg'
 },
 {
   id: 'qala_mix_assorti',
@@ -79,6 +86,7 @@ const MAIN_DISHES = [
     en: 'Qala Mix Assorti',
   },
   price: 280000,
+  img: '50.jpeg'
 },
 ];
 

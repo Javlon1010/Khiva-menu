@@ -7,6 +7,7 @@ const SOUPS = [
     en: 'Mastava Soup',
   },
   price: 35000,
+  img: 'img/18.jpeg'
 },
 {
   id: 'lentil_soup',
@@ -16,6 +17,7 @@ const SOUPS = [
     en: 'Lentil Soup',
   },
   price: 35000,
+  img: 'img/19.jpeg'
 },
 {
   id: 'pumpkin_cream_soup',
@@ -25,6 +27,7 @@ const SOUPS = [
     en: 'Pumpkin Cream Soup',
   },
   price: 35000,
+  img: 'img/20.jpeg'
 },
 {
   id: 'borsch',
@@ -34,6 +37,7 @@ const SOUPS = [
     en: 'Borsch',
   },
   price: 38000,
+  img: 'img/21.jpeg'
 },
 {
   id: 'bedana_shorva',
@@ -43,6 +47,7 @@ const SOUPS = [
     en: 'Quail Soup',
   },
   price: 40000,
+  img: 'img/22.jpeg'
 },
 ];
 

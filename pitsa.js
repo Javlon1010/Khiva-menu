@@ -7,6 +7,7 @@ const SALADS = [
     en: 'Vegetable Pizza',
   },
   price: 65000,
+  img: 'img/39.jpeg'
 },
 {
   id: 'pepperoni_pizza',
@@ -16,6 +17,8 @@ const SALADS = [
     en: 'Pepperoni Pizza',
   },
   price: 80000,
+  img: 'img/39.jpeg'
+  
 },
 {
   id: 'margarita_pizza',
@@ -25,6 +28,7 @@ const SALADS = [
     en: 'Margarita Pizza',
   },
   price: 60000,
+  img: 'img/39.jpeg'
 },
 {
   id: 'meat_pizza',
@@ -34,6 +38,7 @@ const SALADS = [
     en: 'Meat Pizza',
   },
   price: 85000,
+  img: 'img/39.jpeg'
 },
 {
   id: 'caesar_pizza',
@@ -43,6 +48,7 @@ const SALADS = [
     en: 'Caesar Pizza',
   },
   price: 80000,
+  img: 'img/39.jpeg'
 },
 {
   id: 'steak_pizza',
@@ -52,6 +58,7 @@ const SALADS = [
     en: 'Steak Pizza',
   },
   price: 90000,
+  img: 'img/39.jpeg'
 },
 {
   id: 'cheese_pide',
@@ -59,6 +66,7 @@ const SALADS = [
     uz: 'Pishloqli pide',
     ru: 'Пиде Сырный',
     en: 'Cheese Pide',
+    img: 'img/40.jpeg'
   },
   price: 55000,
 },
@@ -70,6 +78,7 @@ const SALADS = [
     en: 'Sausage Pide',
   },
   price: 65000,
+  img: 'img/40.jpeg'
 },
 {
   id: 'meat_pide',
@@ -79,6 +88,7 @@ const SALADS = [
     en: 'Meat Pide',
   },
   price: 75000,
+  img: 'img/40.jpeg'
 },
 {
   id: 'minced_pide',
@@ -88,6 +98,7 @@ const SALADS = [
     en: 'Minced Meat Pide',
   },
   price: 70000,
+  img: 'img/40.jpeg'
 },
 ];
 

@@ -7,6 +7,7 @@ const COLD_APPETIZERS = [
     en: 'Khiva Ijjon',
   },
   price: 25000,
+  img: 'img/13.jpeg'
 },
 {
   id: 'vegetable_assorti',
@@ -16,6 +17,7 @@ const COLD_APPETIZERS = [
     en: 'Vegetable Assorti',
   },
   price: 50000,
+  img: 'img/14.jpeg'
 },
 {
   id: 'meat_platter',
@@ -25,6 +27,7 @@ const COLD_APPETIZERS = [
     en: 'Meat Platter',
   },
   price: 120000,
+  img: 'img/15.jpeg'
 },
 {
   id: 'cheese_platter',
@@ -34,6 +37,7 @@ const COLD_APPETIZERS = [
     en: 'Cheese Platter',
   },
   price: 90000,
+  img: 'img/16.jpeg'
 },
 {
   id: 'fruit_assorti',
@@ -43,6 +47,7 @@ const COLD_APPETIZERS = [
     en: 'Fruit Assorti',
   },
   price: 120000,
+  img: 'img/17.jpeg'
 },
 ];
 

@@ -7,6 +7,7 @@ const SALADS = [
     en: 'Alfredo Pasta',
   },
   price: 60000,
+  img: 'img/41.jpeg'
 },
 {
   id: 'bolognese_pasta',
@@ -16,6 +17,7 @@ const SALADS = [
     en: 'Bolognese Pasta',
   },
   price: 65000,
+  img: 'img/42.jpeg'
 },
 {
   id: 'pomidorini_pasta',
